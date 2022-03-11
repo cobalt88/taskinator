@@ -239,7 +239,7 @@ footer {
 
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 
   :root {
     --primus: #376268;
@@ -254,6 +254,7 @@ footer {
     --decimus: rgb(122, 122, 122);
     --undecimus: rgb(116, 116, 116);
     --duodecimus: rgba(224, 208, 63, 0.7);
+    --tertiusdecimus: white;
   }
   .list-title {
     color: var(--tertius);
@@ -263,4 +264,8 @@ footer {
     background-color: var(--octavus);
   }
 
-}
+  .form-group input {
+    color: var(--tertiusdecimus);
+  }
+
+} */
