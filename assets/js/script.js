@@ -5,7 +5,7 @@ var tasksToDoEl = document.querySelector("#tasks-to-do");
 var tasksInProgressEl = document.querySelector("#tasks-in-progress");
 var tasksCompletedEl = document.querySelector("#tasks-completed");
 var pageContentEl = document.querySelector("#page-content");
-
+var updatedTaskArr = [];
 var tasks = updatedTaskArr;
 
 var taskFormHandler = function(event) {
