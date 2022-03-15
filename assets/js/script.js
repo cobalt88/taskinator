@@ -224,14 +224,14 @@ var loadTasks = function() {
   if (!savedTasks) {
     return false;
   }
-  console.log("Saved tasks found!");
-
+  // console.log("Saved tasks found!");
   savedTasks = JSON.parse(savedTasks);
 
   for (var i = 0; i < savedTasks.length; i++) {
     createTaskEl(savedTasks[i]);
   }
-};
+
+  };
 
 
 console.log(tasks);
